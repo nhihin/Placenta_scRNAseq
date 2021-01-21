@@ -1,7 +1,7 @@
-name: "Placenta_scRNAseq"
+name: Placenta_scRNAseq
 output_dir: ../docs
 navbar:
-  title: "Placenta_scRNAseq"
+  title: Placenta_scRNAseq
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/nhihin/Placenta_scRNAseq
 output:
   workflowr::wflow_html:
     toc: yes
