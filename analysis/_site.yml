@@ -1,0 +1,17 @@
+name: "Placenta_scRNAseq"
+output_dir: ../docs
+navbar:
+  title: "Placenta_scRNAseq"
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
